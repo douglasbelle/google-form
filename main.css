@@ -11,6 +11,11 @@ h1 {
     color: black;
 }
 
+.google-form {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px;
+}
 .question {
     margin-bottom: 50px;
     font-weight: bold;
@@ -55,4 +60,5 @@ button {
     color: white;
     width: 20%;
     height: 40px
+
 }
