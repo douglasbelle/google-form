@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <h1>My Classmates Personal Data</h1>
+
+    <div class="google-form">
+    <form class="my-form" action="https://formspree.io/f/mojlaeal"
+  method="POST">
+
+    <!---Name--->
+    <div class="question">
+        <label for="name">Full Name :</label>
+        <input type="text" required>
+    </div>
+
+    <!---Date of birth-->
+    <div class="question">
+        <label>Date of Birth :</label>
+        <input type="date" required>
+    </div>
+    <!---Gender--->
+    <div class="question">
+        <label for="gender">Gender :</label>
+        <label class="option">
+        <input type="radio" name="gender" required>
+        <span class="custom-radio"></span>
+        Male
+        </label>
+
+        <label class="option">
+            <input type="radio" name="gender">
+            <span class="custom-radio"></span>
+            Female
+        </label>
+
+       <label class="option">
+         <input type="radio" name="gender">
+            <span class="custom-radio"></span>
+            Rather Not Say
+
+       </label>
+        </div>
+
+       <!---Nationality--->
+       <div class="question">
+       <label>Nationality :</label>
+       <input type="text" required>
+</div>
+
+<!---Home Address-->
+<div class="question">
+    <label>Home Address :</label>
+   <textarea rows="3" required></textarea>
+</div>
+
+        <!---Religion--->
+<div class="question">
+<label for="religion">Religion :</label>
+<label class="option">
+    <input type="radio" name="religion">
+    <span class="custom-radio"></span>
+    Christain
+</label>
+    
+<label class="option">
+    <input type="radio" name="religion">
+    <span class="custom-radio"></span>
+    muslim
+</label>
+
+<label class="option">
+    <input type="radio" name="religion" id="otherRadio">
+    <span class="custom-radio"></span>
+    Other
+</label>
+<input type="text" placeholder="Please specify">
+</div>
+
+<!---Tribe--->
+<div class="question">
+    <label>Tribe :</label>
+    <label class="option">
+        <input type="radio" name="tribe">
+        <span class="custom-radio"></span>
+        Yoruba
+    </label>
+
+    <Label class="option">
+         <input type="radio" name="tribe">
+        <span class="custom-radio"></span>
+        Igbo
+    </Label>
+
+    <label class="option">
+         <input type="radio" name="tribe">
+        <span class="custom-radio"></span>
+        Hausa
+    </label>
+
+    <label class="option">
+         <input type="radio" name="tribe">
+        <span class="custom-radio"></span>
+        Other
+    </label>
+<input type="text" placeholder="Please specify">
+</div>
+
+<!---Hostel--->
+<div class="question">
+    <label>Hostel :</label>
+    <label class="option">
+    <input type="radio" name="hostel">
+    <span class="custom-radio"></span>
+    Queen Esther
+    </label>
+    
+    <label class="option">
+        <input type="radio" name="hostel">
+    <span class="custom-radio"></span>
+    FAD
+    </label>
+
+<label class="option">
+    <input type="radio" name="hostel">
+    <span class="custom-radio"></span>
+    Emerald
+</label>
+
+<label class="option">
+    <input type="radio" name="hostel">
+    <span class="custom-radio"></span>
+    Nyberg
+</label>
+
+<label class="option">
+    <input type="radio" name="hostel">
+    <span class="custom-radio"></span>
+    Topaz
+</label>
+
+<label class="option">
+    <input type="radio" name="hostel">
+    <span class="custom-radio"></span>
+    Diamond
+</label>
+
+<label class="option">
+    <input type="radio" name="hostel">
+    <span class="custom-radio"></span>
+    Sapphire
+</label>
+
+<label class="option">
+    <input type="radio" name="hostel">
+    <span class="custom-radio"></span>
+    Nelson Mendela
+</label>
+
+<label class="option">
+    <input type="radio" name="hostel">
+    <span class="custom-radio"></span>
+    Winslow
+</label>
+
+<label class="option">
+    <input type="radio" name="hostel">
+    <span class="custom-radio"></span>
+    Platinum
+</label>
+ 
+<label class="option">
+    <input type="radio" name="hostel">
+    <span class="custom-radio"></span>
+    Off Campus
+</label>
+ <label class="option">
+ <input type="radio" name="hostel">
+    <span class="custom-radio"></span>
+    Others
+    </label>
+    <input type="text" placeholder="Please specify">
+</div>
+   
+<!---Room number-->
+<div class="question">
+        <label for="room number">Room Number :</label>
+        <input type="text" required>
+    </div>
+
+    <button type="submit">Submit</button>
+     </form>
+     </div>
+</body>
+</html>
